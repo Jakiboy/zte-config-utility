@@ -52,6 +52,12 @@ diff >/dev/null resources/ZXHN_H267A.xml resources/ZXHN_H267A.xml2 || (printf "\
 python3 examples/encode.py --signature "ZXHN H267A V1.0" --include-header resources/ZXHN_H267A.xml resources/ZXHN_H267A.bin2
 diff >/dev/null resources/ZXHN_H267A.bin resources/ZXHN_H267A.bin2 || (printf "\n***ENCODE MISMATCH***\n\n" && exit 0)
 
+python3 examples/decode.py resources/ZXHN_H267N.bin resources/ZXHN_H267N.xml2
+diff >/dev/null resources/ZXHN_H267N.xml resources/ZXHN_H267N.xml2 || (printf "\n***DECODE MISMATCH***\n\n" && exit 1)
+
+python3 examples/encode.py --signature "ZXHN H267N V1.0" --include-header resources/ZXHN_H267N.xml resources/ZXHN_H267N.bin2
+diff >/dev/null resources/ZXHN_H267N.bin resources/ZXHN_H267N.bin2 || (printf "\n***ENCODE MISMATCH***\n\n" && exit 0)
+
 python3 examples/decode.py resources/ZXHN_H298N.bin resources/ZXHN_H298N.xml2
 diff >/dev/null resources/ZXHN_H298N.xml resources/ZXHN_H298N.xml2 || (printf "\n***DECODE MISMATCH***\n\n" && exit 1)
 

@@ -1,0 +1,40 @@
+<DB>
+<Tbl name="PPPIF" RowCount="3">
+<Row No="0">
+<DM name="ViewName" val="DEV.PPP.IF1"/>
+<DM name="Enable" val="1"/>
+<DM name="Alias" val="PPP_IF1"/>
+<DM name="LowerLayers" val="DEV.ETH.LINK4"/>
+<DM name="Name" val="DEV.PPP.IF1"/>
+<DM name="AutoDisconnectTime" val="0"/>
+<DM name="IdleDisconnectTime" val="1200"/>
+<DM name="WarnDisconnectDelay" val="0"/>
+<DM name="Username" val="0123456789@dsl.example.ma"/>
+<DM name="Password" val="0123456789"/>
+<DM name="MaxMRUSize" val="1434"/>
+<DM name="ConnectionTrigger" val="0"/>
+<DM name="IPCPEnable" val="1"/>
+<DM name="IPv6CPEnable" val="0"/>
+<DM name="AuthenticationProtocol" val="0"/>
+<DM name="EchoTime" val="30"/>
+<DM name="EchoRetry" val="5"/>
+<DM name="ACName" val=""/>
+<DM name="ServiceName" val=""/>
+<DM name="ValidWANRx" val="0"/>
+<DM name="ValidLANTx" val="1"/>
+<DM name="HostTrigger" val="0"/>
+<DM name="TtyDialNum" val=""/>
+<DM name="TtyAPN" val=""/>
+<DM name="TtyPDPType" val="0"/>
+<DM name="GUATrigger" val="0"/>
+<DM name="DNSv6Trigger" val="0"/>
+<DM name="PrefixTrigger" val="0"/>
+<DM name="AFTRTrigger" val="0"/>
+<DM name="Addressingtype" val="0"/>
+<DM name="StaticIPAddress" val="0.0.0.0"/>
+<DM name="StaticDNS1" val="0.0.0.0"/>
+<DM name="StaticDNS2" val="0.0.0.0"/>
+<DM name="StaticDNS3" val="0.0.0.0"/>
+</Row>
+</Tbl>
+</DB>

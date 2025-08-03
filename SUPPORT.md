@@ -13,6 +13,7 @@
 | ZXHN H168N V3.5   | **4** |       |
 | ZXHN H188A        | **4** |       |
 | ZXHN H267A V1.0   | **2** | @samtimber can extract username/password from `config.bin`|
+| ZXHN H267N V1.0   | **2** |       |
 | ZXHN H268Q        |       |       |
 | ZXHN H288A        | **4** |       |
 | ZXHN H298A        |       |       |
